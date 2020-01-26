@@ -1,17 +1,24 @@
 {
-  "name": "amoeba-web",
+  "name": "with-typescript-styled-components",
   "version": "1.0.0",
-  "description": "Next.js website for Amoeba.dev",
-  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [
-    "next",
-    "next.js",
-    "typescript",
-    "javascript"
-  ],
-  "author": "Erik Rahm",
+  "dependencies": {
+    "next": "latest",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.12",
+    "@types/react": "16.8.23",
+    "@types/react-dom": "16.8.4",
+    "@types/styled-components": "4.1.16",
+    "babel-plugin-styled-components": "^1.10.0",
+    "typescript": "3.5.2"
+  },
   "license": "ISC"
 }
