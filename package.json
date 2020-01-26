@@ -1,0 +1,17 @@
+{
+  "name": "amoeba-web",
+  "version": "1.0.0",
+  "description": "Next.js website for Amoeba.dev",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "next",
+    "next.js",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Erik Rahm",
+  "license": "ISC"
+}
